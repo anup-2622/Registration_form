@@ -1,14 +1,15 @@
 .homepage{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    width: 50vw;
-    height: 50vh;
-    border-radius: 20px;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 10vh;
+    top: 0;
+    border-radius: 8px;
     box-shadow: 0 0 15px 5px grey;
     background: white;
-    position: relative;
+    position: fixed;
 
     .btn{
         background: #1877f2;
