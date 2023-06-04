@@ -1,10 +1,12 @@
 import React from "react";
 import "./home.scss";
-const Homepage = () => {
+const Homepage = ({ setLoginUser }) => {
   return (
     <div className="homepage">
       <h1>hello homepage </h1>
-      <button className="btn">Logout</button>
+      <button className="btn" onClick={() => setLoginUser({})}>
+        Logout
+      </button>
     </div>
   );
 };
